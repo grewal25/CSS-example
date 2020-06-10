@@ -13,10 +13,11 @@ body {
   border: 2px red dotted;
   margin: auto;
   overflow: hidden;
+
 }
 
 #main-header {
-  background-color: coral;
+  background-color:  rgba(231, 22, 22, 0.65);
   color: #fff;
 }
 
@@ -38,7 +39,7 @@ body {
 
 #navbar a {
   color: #fff;
-    text-decoration: none;
+  text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
 }
@@ -47,13 +48,15 @@ body {
   /* background-image: url('img/bgimage.jpg'); */
   background-position: center right;
     /* important */
-  min-height: 300px;
+  min-height: 100px;
   margin-bottom: 30px;
   text-align: center;
+  border: 2px red dotted;
+  margin: 20px;
 }
 
 #showcase h1 {
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1.6em;
   padding-top: 30px;
 }
@@ -85,6 +88,31 @@ body {
   margin-top: 40px;
 }
 
+.my-form{
+  margin: 50px;
+  padding: 20px;
+  border: 3px red dotted;
+  margin-top: 0px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input [type = "text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: 3px red solid;
+}
 
 @media(max-width:800px) {
   #main {
