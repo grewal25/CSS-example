@@ -1,0 +1,169 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body{
+  background-color: #f4f4f4;
+  color: #555555;
+  line-height: 1.6em;
+
+}
+
+.container{
+  width: 80%;
+  margin:  auto;
+}
+
+.clr {
+  clear: both;
+}
+.box-1{
+  background-color: #333;
+  color: #fff;
+  border: 5px red solid;
+  border-width: 3px;
+  padding: 20px;
+
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  letter-spacing: 0.15em;
+}
+
+.box-2 {
+  background-color: white;
+  color: black;
+  border: 5px red solid;
+  border-width: 3px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* when you cick */
+a:hover {
+   color: red;
+}
+
+/* if you visited before
+a:visited {
+  color: brown;
+} */
+a:active {
+  color : green;
+}
+
+
+.categories{
+  border: 5px red dotted;
+  margin-top: 10px;
+  color: red;
+  padding: 10px;
+}
+
+.categories ul {
+  padding: 0px;
+  list-style: none;
+  list-style: square;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+
+}
+
+.my-form{
+  padding: 20px;
+  border: 3px red dotted;
+  margin-top: 15px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input [type = "text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: 3px red solid;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0px 0px 10px;
+  box-sizing: border-box;
+
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border : 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background: url('img/bgimage.jpg');
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  right : 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+/* button willbe fixed, it is important  */
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+@media only screen and (max-width : 600px) {
+  body{
+    background-color: red;
+  }
+}

@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Sans', arial, serif;
+
+}
+
+h2:hover {
+  color: red;
+}
+
+li:nth-child(2){
+  color: pink;
+}
+
+ul > li {
+  color: blue;
+}
+
+/* attribute selector */
+h2[class=about-me]{
+  color: blue;
+}
